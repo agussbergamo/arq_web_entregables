@@ -35,7 +35,7 @@ public class EstudianteController {
 		return estudianteService.obtenerEstudiantesPorGenero(genero);
 	} 
 
-	@GetMapping("/obtenerDeCarreraPorCiudad/{idCarrera}/{ciudad}")
+	@GetMapping("/obtenerDeCarreraPorCiudad/carrera/{idCarrera}/ciudad/{ciudad}")
 	public List<Estudiante> obtenerEstudiantesDeCarreraPorCiudad(@PathVariable int idCarrera, @PathVariable String ciudad){
 		return estudianteService.obtenerEstudiantesDeCarreraPorCiudad(idCarrera, ciudad);
 	}
