@@ -95,7 +95,7 @@ public class EstudianteController {
     @Operation(
             summary = "Devuelve un estudiante según número de libreta universitaria.",
             description = "Servicio encargado de retornar un estudiante según LU ingresada por parámetro.",
-            tags = { "Estudiante-controller" },
+            tags = { "estudiante-controller" },
             responses = {
                     @ApiResponse(
                             description = "Success",
@@ -123,7 +123,7 @@ public class EstudianteController {
     @Operation(
             summary = "Devuelve una lista de estudiantes por género.",
             description = "Servicio encargado de retornar una lista de estudiantes según género ingresado por parámetro.",
-            tags = { "Estudiante-controller" },
+            tags = { "estudiante-controller" },
             responses = {
                     @ApiResponse(
                             description = "Success",
@@ -152,7 +152,7 @@ public class EstudianteController {
     @Operation(
             summary = "Devuelve una lista de estudiantes por carrera y ciudad.",
             description = "Servicio encargado de retornar una lista de estudiantes por carrera y ciudad ingresadas por parámetro.",
-            tags = { "Estudiante-controller" },
+            tags = { "estudiante-controller" },
             responses = {
                     @ApiResponse(
                             description = "Success",
